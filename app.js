@@ -104,7 +104,7 @@ if (venueSection) {
    so the person can always scroll at their own pace.
    ========================================================= */
 (function () {
-  const AUTO_SCROLL_MS = 17000;
+  const AUTO_SCROLL_MS = 12000;
   const slides = [...document.querySelectorAll(
     'main > .scene, main > .closing-scene, #venue, #contacts'
   )];
